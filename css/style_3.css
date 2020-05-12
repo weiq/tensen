@@ -1,0 +1,37 @@
+.game-container {
+  height: fit-content;
+  width: fit-content;
+}
+
+.game-table {
+  height: fit-content;
+  width: fit-content;
+}
+
+.table-image {
+  position: absolute;
+  width: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.table-cards {
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  display: flex;
+}
+
+.card-holder {
+  padding-left:50px; 
+  white-space: nowrap;
+}
+
+.card {
+  width: 100%;
+  vertical-align: middle;
+  /* border: red 3px solid; */
+  display: inline-block;
+  white-space:nowrap;
+}
